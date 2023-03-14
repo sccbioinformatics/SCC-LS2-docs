@@ -231,13 +231,4 @@ I recommend reading [this pdf](pdfs/HowToUseSingularityOnLsens2.pdf) about how t
 
 Nextflow and the [NF-core modules](https://nf-co.re/) are a fantastic reseource for us bioinformaticians. There are a multitude of pipelines for various NGS applications which go into real depth regarding QC. Nextflow pipelines have a the potential to rid us of all the bash scripting we have been used to. It even frees us from thinking about SLURM or the amount of processors we need for a given task because this is also taken care of. 
 
-Hence please try to use the nextflow pipelines installed in "/projects/fs1/common/nextflow/". A minimal help on how to start these pipelines on aurora-ls2 can be obtained by looking at the test script for these pipelines "/home/stefanl/common/nextflow/test_all_blade.sh". This way you can see how the input files should be structured and how the pipelines are called. This was quite a lot of work to install them - so please try to use them using [this guide](pdfs/NextFlow_Pipelines_on_aurora_ls2.pdf) ;-).
-
-
-### R and Python scripts
-
-R and Python are the languages most of the bioinformatic packages are implemented in. Therefore these scripts are different from the Bash/SLURM scripts, they contain a lot of analysis specififc settings and are therefore extremely valuable.
-In other words - BACK THEM UP ;-)
-
-I recommend to use the [Python notebooks](https://jupyter.org/) to interact with both R and Python. With aurora-ls2 being a secure no-internet system installing packages for both languages is a pain. Therfore I have focused on Singularity to package up the most used packages in both R and Python and provide them as [a Jupyter enabled singularity image called SingSingCell](pdfs/HowToUseSingularityOnLsens2.pdf).
-
+Hence, please try to use the nextflow pipelines installed in "/projects/fs1/common/nextflow/". A minimal help on how to start these pipelines on LS2 can be obtained by looking at the test script for these pipelines "/home/stefanl/common/nextflow/test_all_blade.sh". This way you can see how the input files should be structured and how the pipelines are called. IKt was quite a lot of work to install them - so please try to use them using [this guide](pdfs/NextFlow_Pipelines_on_aurora_ls2.pdf) ;-).
