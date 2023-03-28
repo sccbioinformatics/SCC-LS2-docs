@@ -24,7 +24,7 @@ LUNARC also uses two-factor authentication using Pocket Pass. Follow the instruc
 
 ### 4) Request a Static IP address
 
-As a further layer of security we employ IP addrss filtering to make sure only authorised users cann see a connection to LS2. While the above is being done, contact [LDC](mailto:servicedesk@lu.se) and request a fixed IP address for your VPN. When you have this, email it to Shamit for communicaton to LUNARC so it can be whitelisted.
+As a further layer of security we employ IP addrss filtering to make sure only authorised users cann see a connection to LS2. While the above is being done, contact LDC (servicedesk@lu.se) and request a fixed IP address for your VPN. When you have this, email it to Shamit for communicaton to LUNARC so it can be whitelisted.
 
 ### 5) Setup the VPN on your laptop/workstation
 
